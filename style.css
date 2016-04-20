@@ -1,0 +1,102 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-weight: bold;
+  position: relative;
+  flex: initial;
+  font-size: 36px;
+  line-height: 90px;
+  height: 90px;
+  margin-left: 30px;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.game {
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.play {
+  flex: initial;
+  height: 400px;
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.avatar {
+  position: relative;
+  width: 400px;
+  flex: initial;
+  text-align: right;
+}
+
+.avatar img {
+  height: 400px;
+}
+
+.task {
+  flex: 1;
+  text-align: center;
+}
+
+.task .question {
+  height: 230px;
+  line-height: 230px;
+  font-size: 90px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.task .exp .icon {
+  display: inline-block;
+  padding: 10px 5px;
+  position: relative;
+  width: 72px;
+  height: 72px;
+}
+
+.progress {
+  height: 200px;
+  flex: initial;
+  text-align: center;
+}
+
+.progress-bar {
+  width: 800px;
+  max-width: 80%;
+  border-right: solid 5px #333;
+  border-left: solid 5px #333;
+  border-radius: 10px;
+  height: 40px;
+  display: none;
+}
+
+.progress-bar-fill {
+  background: rgb(256,144,12);
+  border-radius: 8px;
+  width: 0%;
+  height: 100%;
+}
+
+.level {
+  font-size: 40px;
+}
+
+.exp-template {
+  display: none;
+}
